@@ -1,0 +1,13 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "Блог с регистрацией и входом",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  }
+}

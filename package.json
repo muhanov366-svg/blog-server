@@ -5,9 +5,13 @@
   "main": "index.html",
   "scripts": {
     "start": "serve .",
-    "dev": "serve ."
+    "dev": "serve .",
+    "server": "json-server --watch db.json --port 3000",
+    "vercel-build": "echo Hello"
   },
   "dependencies": {
-    "serve": "^14.0.0"
+    "serve": "^14.0.0",
+    "json-server": "^0.17.4",
+    "axios": "^1.6.0"
   }
 }
